@@ -13,3 +13,4 @@ deploy:
     tags: true
     repo: ginkgobioworks/scatter-matrix
     branch: master
+  skip_cleanup: true
