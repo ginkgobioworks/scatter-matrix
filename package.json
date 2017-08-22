@@ -36,5 +36,8 @@
     "url": "https://github.com/ginkgobioworks/scatter-matrix/issues"
   },
   "homepage": "https://github.com/ginkgobioworks/scatter-matrix#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
 }
