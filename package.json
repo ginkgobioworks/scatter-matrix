@@ -1,0 +1,19 @@
+{
+  "name": "scatter-matrix",
+  "version": "0.1.0",
+  "description": "Explore data matrix using scatterplot matrix",
+  "main": "scatter-matrix.js",
+  "repository": "git@github.com:ginkgobioworks/scatter-matrix.git",
+  "author": "Benjie Chen <benjie@ginkgobioworks.com>",
+  "contributors": [
+    "Dan Cahoon <dan@ginkgobioworks.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "d3": "3.3.10"
+  },
+  "files": [
+    "scatter-matrix.css",
+    "scatter-matrix.js"
+  ]
+}
