@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/ginkgobioworks/scatter-matrix.svg?branch=master)](https://travis-ci.org/ginkgobioworks/scatter-matrix)
+
+* * *
 
 # scatter-matrix.js
 
