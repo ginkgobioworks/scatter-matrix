@@ -11,8 +11,8 @@
     "Dan Cahoon <dan@ginkgobioworks.com>"
   ],
   "license": "MIT",
-  "dependencies": {
-    "d3": "3.5.17"
+  "peerDependencies": {
+    "d3": "3.x"
   },
   "files": [
     "src/scatter-matrix.css",
@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "rimraf": "^2.6.1",
-    "rollup": "^0.48.2"
+    "rollup": "^0.48.2",
+    "rollup-plugin-postcss": "^0.5.4"
   }
 }
