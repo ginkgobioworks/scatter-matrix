@@ -2,7 +2,9 @@
   "name": "scatter-matrix",
   "version": "0.2.0",
   "description": "Explore data matrix using scatterplot matrix",
-  "main": "src/scatter-matrix.js",
+  "main": "dist/scatter-matrix.cjs.js",
+  "module": "dist/scatter-matrix.esm.js",
+  "browser": "dist/scatter-matrix.umd.js",
   "repository": "git@github.com:ginkgobioworks/scatter-matrix.git",
   "author": "Benjie Chen <benjie@ginkgobioworks.com>",
   "contributors": [
@@ -15,5 +17,15 @@
   "files": [
     "src/scatter-matrix.css",
     "src/scatter-matrix.js"
-  ]
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "clean": "rimraf dist",
+    "dev": "rollup -c -w",
+    "prepare": "yarn run clean && yarn run build"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.1",
+    "rollup": "^0.48.2"
+  }
 }
