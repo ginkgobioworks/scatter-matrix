@@ -22,7 +22,7 @@
     "build": "rollup -c",
     "clean": "rimraf dist",
     "dev": "rollup -c -w",
-    "prepare": "yarn run clean && yarn run build"
+    "prepare": "npm run clean && npm run build"
   },
   "devDependencies": {
     "rimraf": "^2.6.1",
