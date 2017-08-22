@@ -1,0 +1,9 @@
+deploy:
+  provider: npm
+  email: dpcahoon@gmail.com
+  api_key:
+    secure: CHUHxGjzgcqdO/N6Iu3DOeH1S9rOv3xQ5jZerlnZjFTu3qsB48SLg+xA2fsI4yQ5oG+zB091TKpCI6VlSSc1SAG6snqpjCBMXJI2Beh++9+pMa0bsyrXlTfBG4ks/Gle/e/lvWw0X5HssJ1eJsYVAtFx7/YZD4ZuaR4M8Dp1ox+HsQ2sg94zWtX0VugYu6O1N/ivhorDhi3ZkJoHefQLZnYT9ZFGpeOCaeaTEmXjvYT9q982rWz2aCfIZPoHffB37HMQ+sjX0PCppnf86z4xq+77HmWmFeu+hr8C1RGTdvUCmLyxsjYyZHV/0pDdiVrLxRTx4wlsnIW12ARU0O6+4nMVpCbn9x8K+NY5CUJVpX9npR/3H0L/Ym6oPR1+eqSx/lJlzO3TWXv6ebKxxx7AmmKEbq6aRc9QsRiPP1eR34pdd/N4GZGc6Rgq6AotuCSnb2X80lTjgmX9N87L+gwWjnojQVGRcd411EBAjrl74GCHh1dXi6e7EVHW00z+da33IlBFUGuH8LbWIrMgxb6ygiT6Cca9DD6jKTQzQoQdp3tdoGguJdAC+OFGfZwaIyiHgjRc2Wz7uqRdeYoyBbNZTLbZM0IUdHqMBNENfrsHOrjWNNWneGSP4N3XotH9hE09haw/5KRG3SzmRzwsbJoacDR7G19TSk51Y2saKydR084=
+  on:
+    tags: true
+    repo: ginkgobioworks/scatter-matrix
+    branch: master
