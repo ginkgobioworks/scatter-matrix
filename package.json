@@ -10,7 +10,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "d3": "3.3.10"
+    "d3": "3.5.17"
   },
   "files": [
     "scatter-matrix.css",
