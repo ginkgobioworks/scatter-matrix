@@ -18,8 +18,8 @@
     "d3": "3.x"
   },
   "files": [
-    "src/scatter-matrix.css",
-    "src/scatter-matrix.js"
+    "dist",
+    "src"
   ],
   "scripts": {
     "build": "rollup -c",
