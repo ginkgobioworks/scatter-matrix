@@ -1,5 +1,5 @@
 {
-  "name": "@ginkgobioworks/scatter-matrix",
+  "name": "scatter-matrix",
   "version": "0.2.3",
   "description": "Explore data matrix using scatterplot matrix",
   "main": "dist/scatter-matrix.cjs.js",
@@ -37,8 +37,5 @@
     "url": "https://github.com/ginkgobioworks/scatter-matrix/issues"
   },
   "homepage": "https://github.com/ginkgobioworks/scatter-matrix#readme",
-  "dependencies": {},
-  "publishConfig": {
-    "access": "public"
-  }
+  "dependencies": {}
 }
