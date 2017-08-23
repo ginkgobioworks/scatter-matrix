@@ -4,7 +4,8 @@
   "description": "Explore data matrix using scatterplot matrix",
   "main": "dist/scatter-matrix.cjs.js",
   "module": "dist/scatter-matrix.esm.js",
-  "browser": "dist/scatter-matrix.umd.js",
+  "jsnext:main": "dist/scatter-matrix.esm.js",
+  "unpkg": "dist/scatter-matrix.umd.js",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/ginkgobioworks/scatter-matrix.git"

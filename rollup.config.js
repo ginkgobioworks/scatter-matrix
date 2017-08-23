@@ -9,7 +9,7 @@ export default {
   },
   name: 'ScatterMatrix',
   output: [
-    { file: pkg.browser, format: 'umd' },
+    { file: pkg.unpkg, format: 'umd' },
     { file: pkg.main, format: 'cjs' },
     { file: pkg.module, format: 'es' },
   ],
