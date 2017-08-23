@@ -19,7 +19,7 @@ Additional features include
   * User can decide what numeric observations to include in the matrix.
   * User can expand the matrix and view data by fixing one or more observations at set values.
 
-For demo, see http://benjiec.github.io/scatter-matrix/demo/demo.html
+For demo, see https://ginkgobioworks.github.io/scatter-matrix/demo/demo.html
 
 ### Installation
 
