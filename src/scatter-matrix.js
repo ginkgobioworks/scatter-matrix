@@ -162,7 +162,7 @@ ScatterMatrix.prototype.render = function () {
       }
     }
 
-    let size_a = size_control.append('p').text('Change plot size: ');
+    var size_a = size_control.append('p').text('Change plot size: ');
     size_a.append('a')
           .attr('href', 'javascript:void(0);')
           .html('-')
@@ -221,7 +221,7 @@ ScatterMatrix.prototype.render = function () {
                  return ''+i+': '+d;
                });
 
-    let drill_li = 
+    var drill_li = 
       drill_control
         .append('p').text('Drill and Expand: ')
         .append('ul')
@@ -335,7 +335,7 @@ ScatterMatrix.prototype.__draw =
 
     // Pick out stuff to draw on horizontal and vertical dimensions
 
-    let x_variables;
+    var x_variables;
     if (drill_variables.length > 0) {
       // First drill is now the x-axis variable for all columns
       x_variables = [];
@@ -346,7 +346,7 @@ ScatterMatrix.prototype.__draw =
     else
       x_variables = variables_to_draw.slice(0);
 
-    let y_variables;
+    var y_variables;
     if (drill_variables.length > 0) {
       // Don't draw any of the "drilled" variables in vertical dimension
       y_variables = [];
