@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/ginkgobioworks/scatter-matrix.svg?branch=master)](https://travis-ci.org/ginkgobioworks/scatter-matrix)
+[![build status](https://img.shields.io/travis/ginkgobioworks/scatter-matrix.svg)](https://travis-ci.org/ginkgobioworks/scatter-matrix)
+[![npm version](https://img.shields.io/npm/v/@ginkgobioworks/scatter-matrix.svg)](https://www.npmjs.com/package/@ginkgobioworks/scatter-matrix)
 
 * * *
 
@@ -20,3 +21,16 @@ Additional features include
 
 For demo, see http://benjiec.github.io/scatter-matrix/demo/demo.html
 
+### Installation
+
+To install:
+
+```
+npm install --save @ginkgobioworks/scatter-matrix
+```
+
+If you're not using [npm](https://www.npmjs.com) as a package manager, this
+library is available in a [UMD](https://github.com/umdjs/umd) build at
+[unpkg](https://unpkg.com/@ginkgobioworks/scatter-matrix) that you can use in a
+`<script>` tag in the browser, or install with bower. The UMD build makes
+`ScatterMatrix` available as a `window.ScatterMatrix` global variable.
